@@ -18,4 +18,5 @@ during interview We will add follow up questions, and will request an upgrade to
 
 This test should take between 30 - 90 minutes.
 
-Fork this repo, and submit you test via pull request.
+Fork this repo, and submit your test via pull request.
+Tests not submitted via pull request will not be reviewed.
