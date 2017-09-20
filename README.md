@@ -1,22 +1,17 @@
-Back end programmer test 1
-
-Use whatever language you wish.
-
-Please implement "tail" Linux program. We are specifically looking for the -n functionality, but are interested in seeing how you would add more functionality for future releases.
+tail implementation using python
 
 https://www.computerhope.com/unix/utail.htm
 
-We will be grading based on:
+------------------------------------------------------------------------
+Usage: pt.py [options] filename
 
-1) generic design
-2) clean code
-3) unit testing
-4) documentation
+Options:
+  --version        show program's version number and exit
+  -h, --help       show this help message and exit
+  -n NUM_OF_LINES  number of lines to print
+  -F               to monitor input realtime refreshing every # seconds
 
+Example: python pt.py -n 10 -F error.log
 
-during interview We will add follow up questions, and will request an upgrade to the program.
+-------------------------------------------------------------------------
 
-This test should take between 30 - 90 minutes.
-
-Fork this repo, and submit your test via pull request.
-Tests not submitted via pull request will not be reviewed.
